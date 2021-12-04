@@ -15,6 +15,7 @@ $(function () {
     focusOnSelect: true,
     asNavFor: ".product__content",
     vertical: true,
+    centerMode: true,
 
     nextArrow:
       '<button type="button" class="product-next"><img src="./images/product-next.svg" alt="next"></button>',
