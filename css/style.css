@@ -644,6 +644,10 @@ padding-left: 0px;
   max-width: 100%;
 }
 
+.footer__box {
+   justify-content: center;
+}
+
 }
 /* ========== 950px =========== */
 /* ========== 890px =========== */
@@ -723,6 +727,9 @@ padding-left: 0px;
   .seaFood{
     padding: 50px 0;
   }
+  .seaFoods__items{
+    margin-bottom: 50px;
+  }
   .contackts{
     background-image: none;
   }
@@ -730,6 +737,20 @@ padding-left: 0px;
     max-width: 100%;
     padding: 0 10px;
   }
+  .footer {
+    padding-bottom: 40px;;
+}
+  .footer__right .menu{
+    margin: 0;
+  }
+  .footer__box {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+.footer__logo{
+  margin-bottom: 30px;
+}
+
 }
 /* ========== 650px=========== */
 /* ========== 600px=========== */
@@ -776,12 +797,17 @@ padding-left: 0px;
 .product {
     margin-top: 50px;
 }
+
+.footer__logo{
+width: 70px;
+}
+
 }
 /* ========== 470px=========== */
 
 
 /* ========== 360px=========== */
-@media screen and (max-width: 470px){
+@media screen and (max-width: 360px){
   .title {
 
   font-size: 24px;
