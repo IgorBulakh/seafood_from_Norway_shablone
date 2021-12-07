@@ -35,6 +35,17 @@ $(function () {
           vertical: false,
           slidesToShow: 3,
           centerMode: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 461,
+        settings: {
+          arrows: false,
+          vertical: false,
+          slidesToShow: 1,
+          centerMode: true,
+          dots: true,
         },
       },
     ],

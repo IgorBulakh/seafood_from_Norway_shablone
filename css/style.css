@@ -545,10 +545,29 @@ box-shadow: 10px 5px 5px red;
 
 /* ========== adaptiwe =========== */
 /* ========== 1160px =========== */
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1160px){
+
+  .product__name {
+    width: 350px;
+}
+/* .product__content {
+    width: 600px;
+} */
 
 }
 /* ========== 1160px =========== */
+/* ========== 1100px =========== */
+@media screen and (max-width: 1100px){
+.seaFoods__item-content{
+padding-right: 20px;
+}
+.seaFoods__item-content--right.seaFoods__item-content{
+padding-right: 0;
+padding-left: 20px;
+
+}
+}
+/* ========== 1100px =========== */
 /* ========== 1000px =========== */
 @media screen and (max-width: 1000px) {
   .menu__list{
@@ -583,10 +602,50 @@ box-shadow: 10px 5px 5px red;
   border-bottom: none;
 }
 
-
+  .product__name {
+    width: 250px;
+}
 
 }
 /* ========== 1000px =========== */
+/* ========== 950px =========== */
+@media screen and (max-width: 950px){
+  
+.seaFood img{
+  max-width: 100%;
+
+}
+
+.seaFoods__item{
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.seaFoods__item-content--right{
+flex-wrap: wrap-reverse;
+}
+.seaFoods__item-content{
+padding-right: 0px;
+}
+.seaFoods__item-content--right.seaFoods__item-content{
+padding-right: 0;
+padding-left: 0px;
+
+}
+.seaFoods__item-content--right.seaFoods__item-content{
+  margin-right: 0;
+}
+.seaFoods__item-content--right .seaFoods-title{
+  max-width: 100px;
+}
+
+.seaFoods-title,
+.seaFoods__text{
+  max-width: 100%;
+}
+
+}
+/* ========== 950px =========== */
 /* ========== 890px =========== */
 @media screen and (max-width: 890px){
   .product__inner {
@@ -597,8 +656,30 @@ box-shadow: 10px 5px 5px red;
 }
 .product__name{
   width: 100%;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   padding-top: 0;
+}
+.product__name .slick-dots{
+  left: 0;
+  right: 0;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+}
+.product__name .slick-dots button{
+  height: 10px;
+  width: 10px;
+  font-size: 0;
+  padding: 0;
+  border-radius: 50%;
+  background: #c4c4c4;
+  margin: 0 10px;
+}
+
+.product__name .slick-active button{
+  /* background-color: #001E64; */
+ box-shadow: 0 0 10px rgba(0,0,0,0.8);
+  
 }
 
 .product_name-item {
@@ -607,9 +688,7 @@ box-shadow: 10px 5px 5px red;
     
 }
 .product_name-item.slick-current {
-
-  font-size: 24px;
-  
+  font-size: 20px;
 }
 }
 /* ========== 890px =========== */
@@ -627,6 +706,38 @@ box-shadow: 10px 5px 5px red;
 
 }
 /* ========== 745px=========== */
+/* ========== 650px=========== */
+@media screen and (max-width: 650px){
+
+  .product__content{
+    width: 100%;
+  }
+  .seaFoods-box__items{
+    flex-wrap: wrap;
+  }
+
+  .seaFoods-box{
+    display: none;
+   
+  }
+  .seaFood{
+    padding: 50px 0;
+  }
+}
+/* ========== 650px=========== */
+/* ========== 600px=========== */
+@media screen and (max-width: 600px){
+.product__content-box{
+  display: block;
+}
+.slick-slide img {
+  margin: 0 auto;
+}
+.product__content-item {
+  width: 100%;
+}
+}
+/* ========== 600px=========== */
 /* ========== 470px=========== */
 @media screen and (max-width: 470px){
 
@@ -634,6 +745,7 @@ box-shadow: 10px 5px 5px red;
   padding-left: 50px;
     
 }
+
 .slick-dots {
   left: 10px;
 }
@@ -645,10 +757,18 @@ box-shadow: 10px 5px 5px red;
 
 .header__content-btn {
     
-    padding: 10px 65px;
+  padding: 10px 65px;
    
 }
 
+.product__content-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 65px;
+}
+.product {
+    margin-top: 50px;
+}
 }
 /* ========== 470px=========== */
 
@@ -695,3 +815,15 @@ box-shadow: 10px 5px 5px red;
 }
 
 /* ========== 360px=========== */
+/* ========== 320px=========== */
+@media screen and (max-width: 320px){
+  /* .seaFoods-box__items{
+    padding-top: 40px;
+   
+  }
+  .SeaFoods-box__item + .SeaFoods-box__item{
+    margin-top: 20px;
+  } */
+  
+}
+/* ========== 320px=========== */
